@@ -1,0 +1,213 @@
+@font-face {
+    font-family: Sofia Pro;
+    src: url(../Fonts/sofiapro-light.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  Navbar session */
+.container{
+    margin: 0 4.5rem;
+    font-family: Sofia Pro;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo img{
+    width:231px;
+    height: 96.8px;
+}
+
+nav .nav-first{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap:  32px;
+    margin-left: 2rem;
+}
+nav .nav-first li a{
+    text-decoration:none;
+    color: #454545;
+    font-weight: 400;
+    font-family: Sofia Pro;
+}
+.product .material-icons{
+   margin-left: -1.76rem;
+   margin-bottom: -5px;
+   /* color: red; */
+}
+.nav-first .nav-left{
+   margin-left: 8rem;
+}
+.nav-first .nav-list{
+    padding: 10px 40px;
+  
+    border-radius: 25px;
+    background-color: #462686;
+}
+.nav-first .nav-list a{
+    color: white;
+    position: relative;
+}
+
+.icon .material-icons{
+    /* color: white; */
+    color: red;
+    position: absolute;
+    top: 2.5rem;
+    right: 11%;
+    
+}
+/* End of Navbar session */
+
+.backdrop-image{
+  position:relative;
+}
+
+.backdrop-top{
+    position: absolute;
+    top: 300px;
+    right: 20rem;
+}
+
+/* div .link{ */
+    /* margin-top: 50px; */
+    /* height:500px;
+    width: 400px; */
+    
+/* } */
+div .btn{
+    padding: 15px 50px;
+    /* margin-left: 30px; */
+    border-radius: 50px;
+    background-color: #462686;
+    color: white;
+    text-decoration: none;
+    font-family: Sofia Pro;
+}
+
+.container .partners{
+    margin-top: 100px;
+}
+.container .partners p{
+    font-weight: 400;
+    color:#01001D;
+}
+.dangote-company{
+    margin-top: -2.5rem !important;
+}
+
+section .enterprise{
+    padding-top: 100px;
+    background: #7837F8;
+    height: 550px;
+    overflow:hidden;
+    font-family: Sofia Pro;
+    /* z-index: 1; */
+}
+
+ section .software{
+    margin-left: 250px;
+    max-width: 850px;
+    height: 250px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -100px;
+    /* margin: 0 auto; */
+    z-index: -1;
+    background-color: white;
+    margin-bottom: 100px;
+    font-family: Sofia Pro;
+}
+.container .product-one{
+    border: 1px solid #ccc;
+    width: 350px;
+    /* height: 5px; */
+    margin-top: -70px;
+}
+.container .product-two{
+    border-top: 1px solid #ccc;
+    width: 400px;
+    margin-top: -70px;
+}
+.credit-detail{
+    background: #f1f0f0;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction:column; */
+    align-items: center;
+}
+/* .container .btn-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.container .credit-detail-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .btn-work a{
+    background-color:#462686;
+    color: white;
+    text-decoration:none;
+    padding: 15px 40px;
+    border-radius: 25px;
+}
+/* footer */
+.footer .social-links{
+    font-size: 1.7rem;
+}
+ .fab{
+    color: #333333;
+}
+.footer .product h6{
+    color: #455A64;
+    font-weight:900;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+/* .footer .product-layout{
+  
+} */
+input[type="text"] {
+    border: 2px solid #7837F8;
+    color: #7837F8;
+    border-radius: 10px;
+    text-indent: 15px;
+    /* width: 25%; */
+    
+}
+.footer{
+    margin: 0 20px 0 20px;
+}
+.footer .container-fluid{
+    margin: 0 20px;
+}
+.footer .row{
+    /* margin-bottom: 100px; */
+}
+.footer .product{
+    font-size: 12px;
+}
+.footer .product li{
+    padding: 4px 0;
+}
+.footer .product li a{
+    color: #455A64;
+}
+.footer .footer-heading{
+    border-top: 1px solid #beb9b9;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #455A64;
+}
+/* End of footer */
+
