@@ -30,6 +30,7 @@ nav .nav-first{
     align-items: center;
     gap:  32px;
     margin-left: 2rem;
+    padding-top: 15px;
 }
 nav .nav-first li a{
     text-decoration:none;
@@ -40,6 +41,7 @@ nav .nav-first li a{
 .product .material-icons{
    margin-left: -1.76rem;
    margin-bottom: -5px;
+   padding-top: 16px;
    /* color: red; */
 }
 .nav-first .nav-left{

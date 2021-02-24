@@ -30,16 +30,19 @@ nav .nav-first{
     align-items: center;
     gap:  32px;
     margin-left: 2rem;
+    padding-top: 16px;
 }
 nav .nav-first li a{
     text-decoration:none;
     color: #454545;
     font-weight: 400;
     font-family: Sofia Pro;
+   
 }
 .product .material-icons{
    margin-left: -1.76rem;
    margin-bottom: -5px;
+   padding-top: 16px;
    /* color: red; */
 }
 .nav-first .nav-left{
@@ -57,8 +60,8 @@ nav .nav-first li a{
 }
 
 .icon .material-icons{
-    /* color: white; */
-    color: red;
+    color: white;
+    /* color: red; */
     position: absolute;
     top: 2.5rem;
     right: 11%;
