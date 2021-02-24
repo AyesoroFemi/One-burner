@@ -38,7 +38,7 @@ nav .nav-first li a{
     font-family: Sofia Pro;
 }
 nav .nav-first li a:hover {
-    color: red;
+    /* color: red; */
 }
 .product .material-icons{
    margin-left: -1.76rem;
